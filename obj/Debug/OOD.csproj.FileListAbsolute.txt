@@ -1,0 +1,6 @@
+C:\myProjects\OOD\OOD\bin\Debug\OOD.exe.config
+C:\myProjects\OOD\OOD\bin\Debug\OOD.exe
+C:\myProjects\OOD\OOD\bin\Debug\OOD.pdb
+C:\myProjects\OOD\OOD\obj\Debug\OOD.csprojResolveAssemblyReference.cache
+C:\myProjects\OOD\OOD\obj\Debug\OOD.exe
+C:\myProjects\OOD\OOD\obj\Debug\OOD.pdb
