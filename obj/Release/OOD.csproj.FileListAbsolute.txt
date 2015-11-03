@@ -1,0 +1,5 @@
+C:\myProjects\OOD\OOD\bin\Release\OOD.exe.config
+C:\myProjects\OOD\OOD\bin\Release\OOD.exe
+C:\myProjects\OOD\OOD\bin\Release\OOD.pdb
+C:\myProjects\OOD\OOD\obj\Release\OOD.exe
+C:\myProjects\OOD\OOD\obj\Release\OOD.pdb
