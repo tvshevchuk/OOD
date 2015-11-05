@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using OOD.CreationalPatterns.FactoryMethod;
+//using OOD.CreationalPatterns.FactoryMethod;
+using OOD.BehaviourPatterns.Strategy;
 
 namespace OOD
 {
@@ -21,6 +22,14 @@ namespace OOD
             BootsCompany comp3 = new BootsCompany("Nike");
             Product prod3 = comp3.Create();
             */
+
+            //STRATEGY
+            Player player = new Player("Messi", new FootKick());
+            player.Kick.Algorithm();
+            player.Kick = new HeadKick();
+            player.Kick.Algorithm();
+            player.Kick = new KneeKick();
+            player.Kick.Algorithm();
 
             Console.ReadLine();
         }

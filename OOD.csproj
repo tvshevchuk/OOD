@@ -41,6 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BehaviourPatterns\Strategy\FootKick.cs" />
+    <Compile Include="BehaviourPatterns\Strategy\HeadKick.cs" />
+    <Compile Include="BehaviourPatterns\Strategy\IStrategy.cs" />
+    <Compile Include="BehaviourPatterns\Strategy\KneeKick.cs" />
+    <Compile Include="BehaviourPatterns\Strategy\Player.cs" />
     <Compile Include="CreationalPatterns\FactoryMethod\Ball.cs" />
     <Compile Include="CreationalPatterns\FactoryMethod\BallCompany.cs" />
     <Compile Include="CreationalPatterns\FactoryMethod\Boots.cs" />
