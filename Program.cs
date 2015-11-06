@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 //using OOD.CreationalPatterns.FactoryMethod;
-using OOD.BehaviourPatterns.Strategy;
+//using OOD.BehaviourPatterns.Strategy;
+//using OOD.StructuralPatterns.Decorator;
 
 namespace OOD
 {
@@ -24,12 +25,28 @@ namespace OOD
             */
 
             //STRATEGY
+            /*
             Player player = new Player("Messi", new FootKick());
             player.Kick.Algorithm();
             player.Kick = new HeadKick();
             player.Kick.Algorithm();
             player.Kick = new KneeKick();
             player.Kick.Algorithm();
+            */
+
+            //DECORATOR
+            /*
+            Component team1 = new FootballTeam();
+            team1 = new TeamWithStadium(team1);
+            Console.WriteLine("{0} - Value: {1}$", team1.Name, team1.getValue());
+            Component team2 = new BasketballTeam();
+            team2 = new TeamWithInfrastructure(team2);
+            Console.WriteLine("{0} - Value: {1}$", team2.Name, team2.getValue());
+            Component team3 = new FootballTeam();
+            team3 = new TeamWithStadium(team3);
+            team3 = new TeamWithInfrastructure(team3);
+            Console.WriteLine("{0} - Value: {1}$", team3.Name, team3.getValue());
+            */
 
             Console.ReadLine();
         }

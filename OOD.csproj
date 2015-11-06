@@ -56,6 +56,12 @@
     <Compile Include="CreationalPatterns\FactoryMethod\SportwearCompany.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StructuralPatterns\Decorator\BasketballTeam.cs" />
+    <Compile Include="StructuralPatterns\Decorator\Component.cs" />
+    <Compile Include="StructuralPatterns\Decorator\Decorator.cs" />
+    <Compile Include="StructuralPatterns\Decorator\FootballTeam.cs" />
+    <Compile Include="StructuralPatterns\Decorator\TeamWithInfrastructure.cs" />
+    <Compile Include="StructuralPatterns\Decorator\TeamWithStadium.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
