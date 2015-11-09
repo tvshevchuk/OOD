@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 //using OOD.CreationalPatterns.FactoryMethod;
 //using OOD.BehaviourPatterns.Strategy;
 //using OOD.StructuralPatterns.Decorator;
+//using OOD.CreationalPatterns.AbstractFactory;
 
 namespace OOD
 {
@@ -46,6 +47,16 @@ namespace OOD
             team3 = new TeamWithStadium(team3);
             team3 = new TeamWithInfrastructure(team3);
             Console.WriteLine("{0} - Value: {1}$", team3.Name, team3.getValue());
+            */
+
+            //ABSTRACT FACTORY
+            /*
+            Team team1 = new Team(new FootballFactory());
+            team1.BuyTheBall();
+            team1.GoToStadium();
+            Team team2 = new Team(new BasketballFactory());
+            team2.BuyTheBall();
+            team2.GoToStadium();
             */
 
             Console.ReadLine();
