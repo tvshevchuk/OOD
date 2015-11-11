@@ -5,9 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 
 //using OOD.CreationalPatterns.FactoryMethod;
-//using OOD.BehaviourPatterns.Strategy;
-//using OOD.StructuralPatterns.Decorator;
 //using OOD.CreationalPatterns.AbstractFactory;
+
+//using OOD.BehaviourPatterns.Strategy;
+//using OOD.BehaviourPatterns.Observer;
+
+//using OOD.StructuralPatterns.Decorator;
 
 namespace OOD
 {
@@ -25,6 +28,16 @@ namespace OOD
             Product prod3 = comp3.Create();
             */
 
+            //ABSTRACT FACTORY
+            /*
+            Team team1 = new Team(new FootballFactory());
+            team1.BuyTheBall();
+            team1.GoToStadium();
+            Team team2 = new Team(new BasketballFactory());
+            team2.BuyTheBall();
+            team2.GoToStadium();
+            */
+
             //STRATEGY
             /*
             Player player = new Player("Messi", new FootKick());
@@ -35,6 +48,14 @@ namespace OOD
             player.Kick.Algorithm();
             */
 
+            //OBSERVER
+            /*
+            FootballTeam team = new FootballTeam();
+            Coach coach = new Coach("Gvardiola", team);
+            Player player = new Player("Douglas Costa", team);
+            team.Notify();
+            */
+            
             //DECORATOR
             /*
             Component team1 = new FootballTeam();
@@ -47,16 +68,6 @@ namespace OOD
             team3 = new TeamWithStadium(team3);
             team3 = new TeamWithInfrastructure(team3);
             Console.WriteLine("{0} - Value: {1}$", team3.Name, team3.getValue());
-            */
-
-            //ABSTRACT FACTORY
-            /*
-            Team team1 = new Team(new FootballFactory());
-            team1.BuyTheBall();
-            team1.GoToStadium();
-            Team team2 = new Team(new BasketballFactory());
-            team2.BuyTheBall();
-            team2.GoToStadium();
             */
 
             Console.ReadLine();

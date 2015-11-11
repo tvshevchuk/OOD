@@ -41,6 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BehaviourPatterns\Observer\Coach.cs" />
+    <Compile Include="BehaviourPatterns\Observer\FootballTeam.cs" />
+    <Compile Include="BehaviourPatterns\Observer\IObservable.cs" />
+    <Compile Include="BehaviourPatterns\Observer\IObserver.cs" />
+    <Compile Include="BehaviourPatterns\Observer\Player.cs" />
     <Compile Include="BehaviourPatterns\Strategy\FootKick.cs" />
     <Compile Include="BehaviourPatterns\Strategy\HeadKick.cs" />
     <Compile Include="BehaviourPatterns\Strategy\IStrategy.cs" />
