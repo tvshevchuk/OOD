@@ -71,6 +71,12 @@
     <Compile Include="CreationalPatterns\FactoryMethod\SportwearCompany.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StructuralPatterns\Adapter\Adapter.cs" />
+    <Compile Include="StructuralPatterns\Adapter\Boing.cs" />
+    <Compile Include="StructuralPatterns\Adapter\Bus.cs" />
+    <Compile Include="StructuralPatterns\Adapter\ICar.cs" />
+    <Compile Include="StructuralPatterns\Adapter\IPlane.cs" />
+    <Compile Include="StructuralPatterns\Adapter\Team.cs" />
     <Compile Include="StructuralPatterns\Decorator\BasketballTeam.cs" />
     <Compile Include="StructuralPatterns\Decorator\Component.cs" />
     <Compile Include="StructuralPatterns\Decorator\Decorator.cs" />

@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 //using OOD.BehaviourPatterns.Observer;
 
 //using OOD.StructuralPatterns.Decorator;
+//using OOD.StructuralPatterns.Adapter;
 
 namespace OOD
 {
@@ -70,6 +71,15 @@ namespace OOD
             Console.WriteLine("{0} - Value: {1}$", team3.Name, team3.getValue());
             */
 
+            //ADAPTER
+            /*
+            Team team = new Team();
+            Bus bus = new Bus();
+            team.MoveToTheStadium(bus);
+            Boing boing = new Boing();
+            Adapter boingAdapter = new Adapter(boing);
+            team.MoveToTheStadium(boingAdapter);
+             */
             Console.ReadLine();
         }
     }
