@@ -69,6 +69,7 @@
     <Compile Include="CreationalPatterns\FactoryMethod\Product.cs" />
     <Compile Include="CreationalPatterns\FactoryMethod\Sportwear.cs" />
     <Compile Include="CreationalPatterns\FactoryMethod\SportwearCompany.cs" />
+    <Compile Include="CreationalPatterns\Singleton\Singleton.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StructuralPatterns\Adapter\Adapter.cs" />

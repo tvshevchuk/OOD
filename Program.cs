@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 //using OOD.CreationalPatterns.FactoryMethod;
 //using OOD.CreationalPatterns.AbstractFactory;
+//using OOD.CreationalPatterns.Singleton;
 
 //using OOD.BehaviourPatterns.Strategy;
 //using OOD.BehaviourPatterns.Observer;
@@ -39,6 +40,14 @@ namespace OOD
             team2.GoToStadium();
             */
 
+            //SINGLETON
+            /*
+            Singleton team = Singleton.getInstance("Barcelona");
+            Console.WriteLine(team.Name);
+            team = Singleton.getInstance("Real Madrid");
+            Console.WriteLine(team.Name);
+            */
+             
             //STRATEGY
             /*
             Player player = new Player("Messi", new FootKick());
