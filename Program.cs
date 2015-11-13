@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 
 //using OOD.BehaviourPatterns.Strategy;
 //using OOD.BehaviourPatterns.Observer;
+//using OOD.BehaviourPatterns.Command;
 
 //using OOD.StructuralPatterns.Decorator;
 //using OOD.StructuralPatterns.Adapter;
@@ -65,7 +66,16 @@ namespace OOD
             Player player = new Player("Douglas Costa", team);
             team.Notify();
             */
-            
+
+            //COMMAND
+            /*
+            President president = new President("Florentino Peres");
+            Team barcelona = new Team();
+            TeamCommand tc = new TeamCommand(barcelona);
+            president.SetCommand(tc);
+            president.MakeHardDecision();
+            */
+             
             //DECORATOR
             /*
             Component team1 = new FootballTeam();
